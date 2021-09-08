@@ -1,0 +1,71 @@
+h1, h2 {
+    font-family: 'Bariol Regular', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 4em;
+    margin-block-start: 0.6em;
+    margin-block-end: 0.4em;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.3em;
+}
+
+ul {
+    list-style-type: '- ';
+    font-family: 'glorythin', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-inline-start: 30px;
+    margin-block-start: 0.5em;
+    margin-block-end: 1.5em;
+}
+
+div.main {
+    width: fit-content;
+    height: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+a:link, a:visited {
+    color: #0000FF;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+.copybutton {
+    display: inline-block;
+    height: 1.5em;
+    width: 1.5em;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    vertical-align: top;
+    background-image: url('../img/copy.png');
+    background-size: 1.5em 1.5em;
+    background-color: unset;
+}
+
+/* for the clipboard part */
+.copybutton {
+    display: none;
+}
+
+li {
+    width: max-content;
+}
+
+li:hover > .copybutton {
+    display: inline-block;
+}

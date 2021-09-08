@@ -6,12 +6,54 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>ssh keys</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/fonts.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='script/main.js'></script>
+    <!-- Icons made by Gregor Cresnar and Freepik from https://www.flaticon.com/ -->
 </head>
 
 <body>
-    hi
+    <div class="main">
+        <div class="header">
+            <h1>public SSH keys</h1>
+        </div>
+        <div class="content">
+            <h2>Personal</h2>
+            <ul>
+                <li>
+                    <a href="personal/pc.html">pc</a>
+                    <button class="copybutton" onclick="clipboardKey(event)" key="pc"></button>
+                </li>
+                <li>
+                    <a href="personal/pc_wsl.html">pc wsl</a>
+                    <button class="copybutton" onclick="clipboardKey(event)" key="pc_wsl"></button>
+                </li>
+                <li>
+                    <a href="personal/mint.html">mint</a>
+                    <button class="copybutton" onclick="clipboardKey(event)" key="mint"></button>
+                </li>
+                <li>
+                    <a href="personal/laptop.html">laptop</a>
+                    <button class="copybutton" onclick="clipboardKey(event)" key="laptop"></button>
+                </li>
+                <li>
+                    <a href="personal/server.html">server</a>
+                    <button class="copybutton" onclick="clipboardKey(event)" key="server"></button>
+                </li>
+                <li>
+                    <a href="personal/cse.html">cse</a>
+                    <button class="copybutton" onclick="clipboardKey(event)" key="cse"></button>
+                </li>
+            </ul>
+            <h2>Work</h2>
+            <ul>
+                <li>
+                    <a href="personal/pc.html">pc</a>
+                    <button class="copybutton" onclick="clipboardKey(event)" key="pc" type="work"></button>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>
